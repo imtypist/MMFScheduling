@@ -1,0 +1,60 @@
+digraph G {
+
+  subgraph cluster_a {
+    node [style=filled];
+    tA2;
+    tA1;
+    label = "Job A";
+  }
+
+  subgraph cluster_b {
+    node [style=filled];
+    tB1 -> tB2;
+    label = "Job B";
+  }
+  
+  subgraph cluster_c {
+    node [style=filled];
+    tC1 -> tC2;
+    tC1 -> tC3;
+    tC2 -> tC3;
+    label = "Job C";
+  }
+  
+  subgraph cluster_d {
+    node [style=filled];
+    tD1 -> tD3;
+    tD2 -> tD3;
+    tD2 -> tD4;
+    tD3 -> tD5;
+    label = "Job D";
+  }
+  
+  subgraph cluster_e {
+    node [style=filled];
+    tE1 -> tE2;
+    tE1 -> tE3;
+    tE2 -> tE4;
+    tE3 -> tE5;
+    tE3 -> tE6;
+    tE5 -> tE6;
+    label = "Job E";
+  }
+  
+  subgraph cluster_f {
+    node [style=filled];
+    tF1 -> tF2;
+    tF1 -> tF3;
+    tF1 -> tF4;
+    tF2 -> tF5;
+    tF3 -> tF5;
+    tF4 -> tF6;
+    tF5 -> tF7;
+    tF5 -> tF8;
+    tF6 -> tF8;
+    tF7 -> tF9;
+    tF8 -> tF9;
+    label = "Job F";
+  }
+  
+}

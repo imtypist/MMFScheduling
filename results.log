@@ -1,0 +1,58 @@
++ tA1 is scheduled at DC4, will cost 2.9333333333333336 seconds
++ tB1 is scheduled at DC3, will cost 3.533333333333333 seconds
++ tC1 is scheduled at DC4, will cost 3.5125 seconds
++ tD1 is scheduled at DC6, will cost 6.275609756097561 seconds
++ tE1 is scheduled at DC8, will cost 7.501571815718157 seconds
++ tF1 is scheduled at DC9, will cost 4.3 seconds
+* tA2: DC4 is full now, looking for a secondary choice
++ tA2 is scheduled at DC9, will cost 3.066666666666667 seconds
++ tD2 is scheduled at DC5, will cost 4.351800232288037 seconds
+- tA1 is completed at DC4
+- tA2 is completed at DC9
+- tC1 is completed at DC4
++ tC2 is scheduled at DC6, will cost 1.22625 seconds
+- tB1 is completed at DC3
++ tB2 is scheduled at DC3, will cost 2.7333333333333334 seconds
+- tF1 is completed at DC9
++ tF2 is scheduled at DC12, will cost 2.4 seconds
++ tF3 is scheduled at DC10, will cost 3.964676198486123 seconds
+- tD2 is completed at DC5
++ tF4 is scheduled at DC12, will cost 3.26 seconds
++ tD4 is scheduled at DC5, will cost 1.8761904761904762 seconds
+- tC2 is completed at DC6
++ tC3 is scheduled at DC4, will cost 2.30125 seconds
+- tD4 is completed at DC5
+- tB2 is completed at DC3
+- tD1 is completed at DC6
++ tD3 is scheduled at DC5, will cost 2.3962833914053423 seconds
+- tF2 is completed at DC12
+- tC3 is completed at DC4
+- tE1 is completed at DC8
++ tE2 is scheduled at DC3, will cost 3.8015243902439027 seconds
+- tF4 is completed at DC12
++ tE3 is scheduled at DC8, will cost 3.366341463414634 seconds
++ tF6 is scheduled at DC12, will cost 1.688 seconds
+- tF3 is completed at DC10
++ tF5 is scheduled at DC10, will cost 5.271756845154658 seconds
+- tD3 is completed at DC5
++ tD5 is scheduled at DC5, will cost 1.675609756097561 seconds
+- tF6 is completed at DC12
+- tD5 is completed at DC5
+- tE3 is completed at DC8
++ tE5 is scheduled at DC3, will cost 2.2 seconds
+- tE2 is completed at DC3
++ tE4 is scheduled at DC6, will cost 3.2611904761904764 seconds
+- tE5 is completed at DC3
++ tE6 is scheduled at DC3, will cost 3.5739024390243905 seconds
+- tF5 is completed at DC10
++ tF7 is scheduled at DC10, will cost 7.521072796934866 seconds
+* tF8: DC10 is full now, looking for a secondary choice
++ tF8 is scheduled at DC7, will cost 16.677153996101364 seconds
+- tE4 is completed at DC6
+- tE6 is completed at DC3
+- tF7 is completed at DC10
+- tF8 is completed at DC7
++ tF9 is scheduled at DC7, will cost 15.38104984683932 seconds
+- tF9 is completed at DC7
+
+Total execution time is 45.59463688658146 seconds
